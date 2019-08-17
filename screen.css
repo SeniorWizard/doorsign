@@ -1,0 +1,79 @@
+html {
+  font-family: Calibri, sans-sherif;
+}
+
+ input[type=text] {
+  font-size: 12pt;
+}
+
+input[type=button] {
+  font-size: 16pt;
+}
+
+.container {
+  width: 100%;
+}
+.left {
+  width: 30%;
+  float: left;
+  margin: 3em ;
+}
+
+.input {
+  display: table;
+  margin: 0.2em;
+}
+
+label {
+  width: 100px;
+  display: table-cell;
+  text-align:left;
+  font-size: 12pt;
+}
+    
+
+img {
+  width: 8em;
+  text-align: right;
+  margin: 0em 0em 1em 4em
+}
+
+#roomcontainer {
+	display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+}
+
+.head, .foot {
+  height: 2.5em;
+  width: 100%;
+  font-size: 0.5em;
+  box-sizing: border-box;
+  padding: 0.5em;
+}
+
+.head  {
+  top: 0em;
+  position: relative;
+}
+
+.foot  {
+  bottom: 0em;
+  position: absolute;
+  text-align: right;
+}
+
+div.right {
+  height: 21em;
+  width: 15em;
+  margin: 3em ;
+  position: relative;
+  border: 1px solid #000000;
+  background: #ffffff;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  float: right;
+}
+

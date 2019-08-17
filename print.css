@@ -1,0 +1,78 @@
+html {
+  font-family: Calibri, sans-sherif;
+}
+
+@page {
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+}
+
+.left {
+  display: none;
+  width: 0;
+}
+
+img {
+  width: 8cm;
+  text-align: right;
+  margin: 0cm 0cm 1cm 3cm;  
+}
+
+div.right {
+  height: 21cm;
+  width: 14.8cm;
+  position: relative;
+  border: 8px solid white;
+  background: #ffffff;
+  display: block;
+  margin: 3em auto;
+  text-align: center;
+  font-size: 26pt;
+  font-weight: bold;
+}
+
+.right:before, .right:after {
+  position: absolute;
+  content: '';
+  border: solid black;
+  z-index: 1;
+}
+.right:before {
+  top: -32px; bottom: -32px;
+  left: 1px; right: 1px;
+  border-width: 0 1px;
+}
+.right:after {
+  left: -32px; right: -32px;
+  top: 1px; bottom: 1px;
+  border-width: 1px 0;
+}
+  
+.head, .foot {
+  height: 2.5cm;
+  width: 100%;
+  font-size: 16pt;
+  box-sizing: border-box;
+  padding: 1.6cm;  
+}
+
+#roomcontainer {
+	display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+}
+
+
+.head  {
+  top: 0cm;
+  position: relative;
+
+}
+
+.foot  {
+  bottom: 0cm;
+  position: absolute;
+  text-align: right;
+}
+
