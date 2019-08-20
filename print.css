@@ -1,7 +1,3 @@
-html {
-  font-family: Calibri, sans-sherif;
-}
-
 @page {
     margin-top: 0cm;
     margin-bottom: 0cm;
@@ -54,25 +50,5 @@ div.right {
   font-size: 16pt;
   box-sizing: border-box;
   padding: 1.6cm;  
-}
-
-#roomcontainer {
-	display:flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  
-}
-
-
-.head  {
-  top: 0cm;
-  position: relative;
-
-}
-
-.foot  {
-  bottom: 0cm;
-  position: absolute;
-  text-align: right;
 }
 

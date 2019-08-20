@@ -1,0 +1,27 @@
+html {
+  font-family: Calibri, Arial, Helvetica, sans-sherif;
+  color: #1F497D;
+}
+
+
+.container {
+  width: 100%;
+}
+#roomcontainer {
+	display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+}
+.head  {
+  top: 0em;
+  position: relative;
+}
+
+.foot  {
+  bottom: 0em;
+  position: absolute;
+  text-align: right;
+}
+
+
